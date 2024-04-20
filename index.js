@@ -5,3 +5,4 @@ function copyText() {
     document.execCommand("copy");
     alert(copyText.value);
 }
+
