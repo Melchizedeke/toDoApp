@@ -15,9 +15,11 @@ body {
 
 button {
     font-family: monospace;
+    cursor: pointer;
 }
 
 input {
     height: 35px;
     width: 300px;
+    font-family: monospace;
 }
