@@ -8,10 +8,11 @@ document.querySelector('#add-todo').onclick = function () {
     else {
         document.querySelector('#tasks').innerHTML +=
             `<div class='task'>
-            <span id="taskname">
-                ${document.querySelector('#newtask input').value}
-            </span>
-        </div>`
+                <span id="taskname">
+                    ${document.querySelector('#newtask input').value}
+                </span>
+                <button>Delete</button>
+            </div>`
     }
 
 }
