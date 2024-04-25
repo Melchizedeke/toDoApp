@@ -21,6 +21,16 @@ document.querySelector('#add-todo').onclick = function () {
                 this.parentNode.remove()
             }
         }
+
+        //Marking out a completed task
+        let tasks = document.querySelectorAll('.tasks');
+        for (i = 0; i < tasks.length; i++) {
+            tasks[i].onclick = function () {
+                this.classList.toggle('.crossline');
+            }
+        }
     }
+
+
 
 }
