@@ -76,3 +76,35 @@ body {
     width: 100%;
     position: relative;
 }
+
+.task {
+    font-family: monospace, sans-serif;
+    background-color: aliceblue;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.task span {
+    font-family: monospace, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.task button {
+    cursor: pointer;
+    font-family: monospace, sans-serif;
+    background-color: #8052ec;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue;
+    height: 100%;
+}
