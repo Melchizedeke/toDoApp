@@ -21,4 +21,39 @@ body {
     top: 50%;
     left: 50%;
     min-width: 500px;
+    padding: 40px 50px;
+}
+
+#newtask {
+    position: relative;
+    background-color: aliceblue;
+    padding: 45px 40px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    border: 3px solid #8052ec
+}
+
+#newtask input {
+    width: 80%;
+    height: 45px;
+    font-family: monospace, sans-serif;
+    font-size: 16px;
+    border: 3px solid #8052ec;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    height: 45px;
+    width: 18%;
+    background-color: #8052ec;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: monospace, sans-serif;
+    font-weight: 500;
 }
