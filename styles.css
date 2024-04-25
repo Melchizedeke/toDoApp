@@ -22,6 +22,7 @@ body {
     left: 50%;
     min-width: 500px;
     padding: 40px 50px;
+    border-radius: 10px;
 }
 
 #newtask {
@@ -45,6 +46,11 @@ body {
     position: relative;
 }
 
+#newtask input:focus {
+    border: none;
+    border-color: #8052ec;
+}
+
 #newtask button {
     position: relative;
     float: right;
@@ -56,4 +62,6 @@ body {
     border-radius: 5px;
     font-family: monospace, sans-serif;
     font-weight: 500;
+    font-size: 16px;
+    color: white;
 }
