@@ -108,3 +108,7 @@ body {
     color: aliceblue;
     height: 100%;
 }
+
+.crossline {
+    text-decoration: line-through;
+}
