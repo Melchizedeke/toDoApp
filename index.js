@@ -23,7 +23,7 @@ document.querySelector('#add-todo').onclick = function () {
         }
 
         //Marking out a completed task
-        let tasks = document.querySelectorAll('.tasks');
+        let tasks = document.querySelectorAll('.task');
         for (i = 0; i < tasks.length; i++) {
             tasks[i].onclick = function () {
                 this.classList.toggle('crossline');
