@@ -29,6 +29,9 @@ document.querySelector('#add-todo').onclick = function () {
                 this.classList.toggle('crossline');
             }
         }
+
+        //Clearing the input fields after updating a todo
+        document.querySelector('#newtask input').value = '';
     }
 
 
