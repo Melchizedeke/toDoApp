@@ -11,8 +11,16 @@ document.querySelector('#add-todo').onclick = function () {
                 <span id="taskname">
                     ${document.querySelector('#newtask input').value}
                 </span>
-                <button>Delete</button>
+                <button class='delete'>Delete</button>
             </div>`
+
+        //Deleting a task
+        let ongoingTask = document.querySelectorAll('.delete');
+        for (let i = 0; i < ongoingTask.length; i++) {
+            ongoingTask[i].onclick = function () {
+                this.parentNode.remove()
+            }
+        }
     }
 
 }
