@@ -26,7 +26,7 @@ document.querySelector('#add-todo').onclick = function () {
         let tasks = document.querySelectorAll('.tasks');
         for (i = 0; i < tasks.length; i++) {
             tasks[i].onclick = function () {
-                this.classList.toggle('.crossline');
+                this.classList.toggle('crossline');
             }
         }
     }
